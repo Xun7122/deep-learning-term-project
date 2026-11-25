@@ -1,0 +1,30 @@
+# Local environments and notebook caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Course data and generated outputs
+data/
+results/
+outputs/
+task1_results/
+*.csv
+!experiment_log.csv
+*.xls
+*.xlsx
+*.zip
+*.pt
+*.pth
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pickle
+split_manifest.json
+
+# Local credentials
+.env
+.env.*
+!.env.example

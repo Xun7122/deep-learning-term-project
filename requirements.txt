@@ -1,0 +1,12 @@
+# Exact versions recorded by the 2026-11-25 Colab experiment.
+# CPU PyTorch wheels may require this additional index.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.4.6
+pandas==2.2.3
+openpyxl==3.1.5
+scikit-learn==1.6.1
+joblib==1.6.0
+torch==2.14.1+cpu
+
+# Used for plotting; the original experiment did not record an exact version.
+matplotlib
